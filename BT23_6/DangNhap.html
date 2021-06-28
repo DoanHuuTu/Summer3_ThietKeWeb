@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 16</title>
+</head>
+<body>
+    <style>
+        h2{
+            text-align: center;
+        }
+        form{
+            border: 1px solid black;
+            display: inline-block;
+        }
+        .box{
+            display: flex;
+            margin: 5px;
+        }
+        label{
+            padding: 5px;
+        }
+        .input{
+            position: relative;
+            
+        }
+        .password{
+            position: absolute;
+            bottom: 0px;
+        }
+        .botton{
+            display: flex;
+            justify-content: center;
+        }
+        .botton input {
+            margin: 7px;
+        }
+    </style>
+    <div id="container">
+        <form action="">
+            <h2>ĐĂNG NHẬP DIỄN ĐÀN</h2>
+            <div class="box">
+                <div class="title">
+                    <label for="username">Tên đăng nhập: </label><br><br>
+                    <label for="password">Mật Khẩu: </label>
+                </div>
+                <div class="input">
+                    <input type="text" id="username"><br><br>
+                    <input class="password" type="password" id="password">
+                </div>
+            </div>
+            <div class="botton">
+                <input type="submit" name="btn_login" value="Đăng nhập">
+                <input type="submit" name="btn_reset" value="Phục Hồi">
+            </div>
+        </form>
+    </div>
+    <br><br>
+    <a href="index.html">Quay lại danh sách bài tập</a>
+</body>
+</html>

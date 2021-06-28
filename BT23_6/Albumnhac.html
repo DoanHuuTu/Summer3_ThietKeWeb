@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 14</title>
+</head>
+<body>
+    <style>
+        #wrapper{
+            width: 200px;
+            border: 1px solid black;
+            margin: 0px auto;
+        }
+        a{
+            color: violet;
+        }
+
+        div .title{
+            position: relative;
+            left: 0px;
+            width: 125;
+            animation-name:move_right;
+            animation-duration:4s;
+            animation-iteration-count:infinite;
+        }
+        @keyframes move_right{
+            0%{left:0px;}
+            50%{left:50px;}
+            100%{left: 0px;}
+        }
+    </style>
+    <div id="wrapper">
+        <div class="title"><h2>Nhạc online</h2></div>
+        <a href="chiaxa.html" target="blank">Chia xa</a>
+        <br>
+
+        <a href="loibuonchimsao.html" target="blank">Lỗi buồn chim sáo</a>
+    </div>
+    <br><br>
+    <a href="index.html">Quay lại danh sách bài tập</a>
+</body>
+</html>

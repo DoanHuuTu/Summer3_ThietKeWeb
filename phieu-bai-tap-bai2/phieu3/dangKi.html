@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dang Ki</title>
+</head>
+<body>
+    <style>
+        #wrapper{
+            width: 550px;
+            margin: 0px auto;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+        h3{
+            text-align: center;
+        }
+        table{
+            width: 95%;
+            left: 190px;
+            margin: 13px;
+        }
+        input.ip1{
+            width: 220px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        input{
+            margin: 5px;
+        }
+        .d-flex{
+            display: flex;
+            justify-content: center;
+        }
+   </style>
+    <div id="wrapper">
+        <h3>PHIẾU ĐĂNG KÍ THAM RA CHƯƠNG TRÌNH KHUYẾN MÃI</h3>
+        <table border="1">
+            <tr>
+                <td><label for="fullname" class="">Họ và tên</label></td>
+                <td><form action="">
+                    <input type="text" name="" id="fullname" class="ip1">
+                </form></td>
+            </tr>
+            <tr>
+                <td><label for="address">Địa chỉ</label></td>
+                <td><form action="">
+                    <input type="text" name="" id="address">
+                </form></td>
+            </tr>
+            <tr>
+                <td><label for="telephone">Điện thoại</label></td>
+                <td><form action="">
+                    <input type="number" name="" id="telephone">
+                </form></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Phái</label></td>
+                <td><form action="">
+                    <input type="radio" name="gender" id="male" checked="checked" value="Nam">
+                    <label for="male">Nam</label>
+                    <input type="radio" name="gender" id="female"value="Nữ">
+                    <label for="female">Nữ</label>
+                </form></td>
+            </tr>
+            <tr>
+                <td>Nghề Nghiệp</td>
+                <td><form action="">
+                    <select name="" id="">
+                        <option value="">---chọn---</option>
+                        <option value="">Giao Viên</option>
+                        <option value="">Sinh Viên</option>
+                    </select>
+                </form></td>
+            </tr>
+            <tr>
+                <td>Chọn sản phẩm tham ra</td>
+                <td><form action="">
+                    <input type="checkbox" id="1">
+                    <label for="1">Kem đánh răng</label><br>
+                    <input type="checkbox" id="2">
+                    <label for="2">bột giặt</label><br>
+                    <input type="checkbox" id="3">
+                    <label for="3">Giau gội đầu</label><br>
+                    <input type="checkbox" id="4">
+                    <label for="4">Sữa Tắm</label>
+                </form></td>
+            </tr>
+            <tr>
+                <td>số người dự đoán tham ra</td>
+                <td><form action="">
+                    <input type="number" name="" >
+                </form></td>
+            </tr>
+            <tr>
+                <td colspan="2"><form action="" class="d-flex">
+                    <input type="submit" value="Đồng ý">
+                </form></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

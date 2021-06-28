@@ -1,0 +1,14 @@
+#wrapper{
+    width: 960px;
+    margin: 0px auto;
+}
+ul li a{
+    display: block;
+    padding: 10px;
+}
+.color-white{
+    color: white;
+}
+.color-black{
+    color: black;
+}

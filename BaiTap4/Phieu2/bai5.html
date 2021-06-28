@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../global.css">
+    <title>Bai2-phieu 2</title>
+</head>
+<body>
+    <style>
+        nav{
+            width: 150px;
+        }
+        nav ul{
+            padding: 0px;
+            position: relative;
+            background: blue;
+        }
+        nav ul li{
+            list-style: none;
+        }
+        nav ul li a{
+            border-bottom: 1px solid white;
+            text-decoration: none;
+            padding: 13px 20px;
+            color: white;
+
+
+        }
+        nav ul li:hover>a{
+            background: red;
+        }
+        nav ul li:hover>ul#sub-menu{
+            display: block;
+        }
+        ul#sub-menu{
+            display: none;
+            position: absolute;
+            left: 151px;
+            top: 0px;
+            width: 170px;
+        }
+    </style>
+    <div id="wrapper">
+        <nav>
+            <ul>
+                <li><a href="">Chinh tri-xã hội</a>
+                    <ul id="sub-menu">
+                        <li><a href="">Thư viện pháp luật</a></li>
+                        <li><a href="">Sống khỏe</a></li>
+                        <li><a href="">Pháp luật</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Thế giới</a></li>
+                <li><a href="">Nhịp sống trẻ</a></li>
+                <li><a href="">Giao dục</a></li>
+                <li><a href="">Kinh tế</a></li>
+            </ul>
+        </nav>
+    </div>
+    <br>
+    <br>
+    <ul>
+        <li><a href="phieu2.html">Quay lại danh sách bài tập của phiếu 2</a></li>
+        <li><a href="../index.html">Quay lại danh sách phiếu bài tập 4</a></li>
+    </ul>
+</body>
+</html>

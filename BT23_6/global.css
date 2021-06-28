@@ -1,0 +1,22 @@
+#wrapper{
+    width: 960px;
+    margin: 0px auto;
+}
+.color-reb{
+    color: rebeccapurple;
+}
+.color-red{
+    color: red;
+}
+.color-blue{
+    color: blue;
+}
+.text-center{
+    text-align: center;
+}
+.text-transform-uppercase{
+    text-transform: uppercase;
+}
+.text-right{
+    text-align: right;
+}
